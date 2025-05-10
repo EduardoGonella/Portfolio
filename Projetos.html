@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+
+    <style>
+
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #FFEAC5;
+        }
+
+        header {
+            height: 100px;
+        }
+
+        ul.menu {
+            display: Flex;
+            flex-direction: row;
+            list-style-type: none;
+            margin: auto;
+            padding: 5px;
+            background-color: #ffc48588;
+            justify-content: center;
+
+        }
+
+        ul li.menus {
+            padding: 10px;
+            margin-right: 10px;
+
+        }
+
+        ul li a.menua {
+            text-decoration: none;
+            color: #EEEEEE;
+            background-color: #6C4E31;
+            padding: 10px;
+            border-radius: 10px;
+            display: block;
+            transition: all 0.5s ease;
+
+            font-family: "Lora", serif;
+            font-weight: 1000;
+        }
+
+        ul li a.menua:hover {
+            background-color: #603F26;
+            color: #EEEEEE;
+
+        }
+
+        li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        li a img {
+
+            width: 300px;
+            height: 400px;
+        }
+
+        main{
+            min-height: calc(100vh - 100px);
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul class="menu">
+
+            <li class="menus"><a class="menua" href="#">Home</a></li>
+            <li class="menus"><a class="menua" href="#">Sobre mim</a></li>
+            <li class="menus"><a class="menua" href="#">Projetos</a></li>
+    
+        </ul>
+    </header>
+    
+    <main>
+        <br><br>
+        <h1>Meus projetos</h1>
+        <br><br>
+        <div>
+            <ul>
+                <li>Portfólio: <br><a href="https://github.com/EduardoGonella/Portfolio"><img src="" alt="Portfólio"></a><br><br></li>
+                <li>Harry potter:<br><a href="https://github.com/EduardoGonella/Harry/tree/main"><img src="Harry_codigo.png" alt="Harry Potter"></a><br><br></li>
+                <li>Cartão:<br><a href="https://github.com/EduardoGonella/Cartao/tree/main"><img src="cartao_codigo.png" alt="Cartão"></a><br><br></li>
+                <li>Bandeiras:<br><a href="https://github.com/EduardoGonella/bandeiras/tree/main"><img src="bandeiras_codigo.png" alt="Bandeiras"></a><br><br></li>
+            </ul>
+        </div>
+    </main>
+</body>
+
+</html>
